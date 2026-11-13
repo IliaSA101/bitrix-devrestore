@@ -1,0 +1,18 @@
+# Папка профилей: настройки машины, профили и скрипты клиентов, состояние и журналы обработок
+devrestore-home/*
+!devrestore-home/scripts/
+devrestore-home/scripts/*
+!devrestore-home/scripts/_example.php
+
+# Штатный restore.php Битрикса и старый скрипт настройки клиента
+restore.php
+ade_setup_dev.php
+
+# настройки и хуки Claude Code — только локально
+.claude/
+
+# инструкции для ИИ-агента — только локально
+CLAUDE.md
+
+# рабочие спецификации — только локально
+docs/
